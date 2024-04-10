@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Skranji&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Vegur, 'PT Sans', Verdana, sans-serif;
+}
+
+body{
+    background-color: rgb(76, 76, 76);
+    color:#fff;
+}
+
+.menu {
+    padding: 40px;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background-color: #14083e;
+}
+
+.menu ul li{
+    display: inline-block;
+    list-style: none;
+    padding-left: 30px;
+}
+
+.menu ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 15px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    border-bottom: 1px solid #fff;
+    font-size: 15pt;
+}
+
+.menu ul li a:hover {
+    background-color: #ddd;
+    color:#000;
+    border-bottom: 1px solid #000;
+    border-radius: 3.5%;
+}
